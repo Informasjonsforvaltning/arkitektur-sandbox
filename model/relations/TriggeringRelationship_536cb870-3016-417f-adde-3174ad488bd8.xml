@@ -1,0 +1,12 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sender foretaksinformasjon"
+    id="536cb870-3016-417f-adde-3174ad488bd8">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_107c69ad-ba74-40b3-9cc5-59c5e9acb9dd.xml#107c69ad-ba74-40b3-9cc5-59c5e9acb9dd"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_64994e0f-5913-4d7b-82fc-93e244201399.xml#64994e0f-5913-4d7b-82fc-93e244201399"/>
+</archimate:TriggeringRelationship>

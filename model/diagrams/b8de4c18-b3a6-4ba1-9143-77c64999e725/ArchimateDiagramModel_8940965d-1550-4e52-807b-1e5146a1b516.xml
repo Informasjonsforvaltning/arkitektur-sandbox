@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Kva er eit API"
+    name="Kva er eit API - konsis versjon"
     id="8940965d-1550-4e52-807b-1e5146a1b516">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -31,7 +31,7 @@
           href="RealizationRelationship_ae196921-ad3b-46c5-806d-402d881afb69.xml#ae196921-ad3b-46c5-806d-402d881afb69"/>
     </sourceConnections>
     <bounds
-        x="398"
+        x="420"
         y="51"
         width="120"
         height="55"/>

@@ -105,14 +105,16 @@
 										dataElements.push({id:"2a08b1d4-e02d-4d0c-b4e7-6aefc6d7f21f", type:"DataObject", name:decodeURL("Data+Object"), description:decodeURL("")});
 										dataElements.push({id:"5f56136b-3eb4-470f-beff-c832a46a7cbe", type:"DataObject", name:decodeURL("En+API+beskrivelse"), description:decodeURL("")});
 										dataElements.push({id:"5fa5b86f-f1a0-4302-b4b1-3efdd1817697", type:"ApplicationComponent", name:decodeURL("API-katalogen"), description:decodeURL("")});
+										dataElements.push({id:"fcd1f469-c073-43b3-ac58-f0828a20df12", type:"ApplicationFunction", name:decodeURL("Application+Function"), description:decodeURL("")});
+										dataElements.push({id:"682e6f2b-7486-4797-a215-90a4d855a0e8", type:"ApplicationService", name:decodeURL("Application+Service"), description:decodeURL("")});
 
 
 										dataElements.push({id:"2061b564-a863-43ae-9b70-c768a7657e9e", type:"Requirement", name:decodeURL("Standard+xyz"), description:decodeURL("")});
 										dataElements.push({id:"9d1495bf-2bbf-44b9-a516-5c84e266aca8", type:"Requirement", name:decodeURL("API+spesifikasjon"), description:decodeURL("")});
 
 
-										dataElements.push({id:"89853c7d-97d2-4904-a89a-eb3c433804ce", type:"Grouping", name:decodeURL("Beskrivelsesverden"), description:decodeURL("")});
-										dataElements.push({id:"1e9fadef-73f7-4c3e-8a2c-b238a130dc2e", type:"Grouping", name:decodeURL("Virkelige+verden"), description:decodeURL("")});
+										dataElements.push({id:"89853c7d-97d2-4904-a89a-eb3c433804ce", type:"Grouping", name:decodeURL("Meta"), description:decodeURL("")});
+										dataElements.push({id:"1e9fadef-73f7-4c3e-8a2c-b238a130dc2e", type:"Grouping", name:decodeURL("R%C3%B8ynda"), description:decodeURL("")});
 
 
 										dataRelations.push({id:"736ac9a9-ad05-4a0f-8481-a16a6f35b30f", type:"AssignmentRelationship", name:decodeURL(""), description:decodeURL(""), source:"d9637e0c-29a0-4ac9-b726-275873b9463d", target:"daebfb99-d03a-4c27-981e-7857d595d9a8"});
@@ -146,13 +148,17 @@
 										dataRelations.push({id:"8c0c0448-467a-4970-83d5-8de486b75203", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), source:"1e9fadef-73f7-4c3e-8a2c-b238a130dc2e", target:"9d1495bf-2bbf-44b9-a516-5c84e266aca8"});
 										dataRelations.push({id:"d52fbe8c-2775-42a8-af02-b487a7c17937", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), source:"1e9fadef-73f7-4c3e-8a2c-b238a130dc2e", target:"24c6d6dc-bb56-4791-be42-a05ddbba64c2"});
 										dataRelations.push({id:"2f534a36-f129-40ac-98ab-672857833b6a", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), source:"1e9fadef-73f7-4c3e-8a2c-b238a130dc2e", target:"ee73b644-5602-4e23-89f4-5377b3a2954d"});
+										dataRelations.push({id:"db8192fe-4b08-4a18-9f36-1f8c8602063b", type:"AssignmentRelationship", name:decodeURL(""), description:decodeURL(""), source:"ee73b644-5602-4e23-89f4-5377b3a2954d", target:"fcd1f469-c073-43b3-ac58-f0828a20df12"});
+										dataRelations.push({id:"be0b7bf7-0849-4374-9c3c-2e8836c35bb9", type:"RealizationRelationship", name:decodeURL(""), description:decodeURL(""), source:"fcd1f469-c073-43b3-ac58-f0828a20df12", target:"682e6f2b-7486-4797-a215-90a4d855a0e8"});
+										dataRelations.push({id:"d4ce1f66-fd03-4277-9794-a39a54aaff80", type:"AssignmentRelationship", name:decodeURL(""), description:decodeURL(""), source:"24c6d6dc-bb56-4791-be42-a05ddbba64c2", target:"682e6f2b-7486-4797-a215-90a4d855a0e8"});
 
 
 											dataElements.push({id:"fee51b6e-60f2-43b3-a21a-5cff0a093f11", type:"ArchimateDiagramModel", name:decodeURL("API-beskrivelser+-+alternativ+1"), description:decodeURL("")});
 											dataElements.push({id:"37beb9c8-169f-4929-8bdb-c5df8f8a2332", type:"ArchimateDiagramModel", name:decodeURL("API-beskrivelser+-+alternativ+2"), description:decodeURL("")});
 											dataElements.push({id:"bb0fdbd5-3643-4b9d-8bac-3f000b48248a", type:"ArchimateDiagramModel", name:decodeURL("Standardisert+API"), description:decodeURL("")});
-											dataElements.push({id:"8940965d-1550-4e52-807b-1e5146a1b516", type:"ArchimateDiagramModel", name:decodeURL("Kva+er+eit+API"), description:decodeURL("")});
+											dataElements.push({id:"8940965d-1550-4e52-807b-1e5146a1b516", type:"ArchimateDiagramModel", name:decodeURL("Kva+er+eit+API+-+konsis+versjon"), description:decodeURL("")});
 											dataElements.push({id:"b427688a-a06c-455d-a93c-dd40136d2bc7", type:"ArchimateDiagramModel", name:decodeURL("Kva+er+eit+API+-+relasjon+til+FDK"), description:decodeURL("")});
+											dataElements.push({id:"5ea0fb67-ca1b-47e5-9b16-c7a1e02cc938", type:"ArchimateDiagramModel", name:decodeURL("Kva+er+eit+API"), description:decodeURL("")});
 
 
 
